@@ -1,0 +1,36 @@
+{
+  "name": "claude-code-wrapped",
+  "version": "0.1.0",
+  "description": "🎁 Your Claude Code usage, Spotify-Wrapped style. 100% local, zero dependencies.",
+  "bin": {
+    "claude-wrapped": "bin/claude-wrapped.js"
+  },
+  "scripts": {
+    "start": "node bin/claude-wrapped.js",
+    "demo": "node bin/claude-wrapped.js --demo",
+    "test": "node test/smoke.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "wrapped",
+    "analytics",
+    "tokens",
+    "cli",
+    "usage",
+    "stats"
+  ],
+  "author": "Victor Lozoya",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vic98lg/claude-code-wrapped.git"
+  },
+  "files": [
+    "bin/"
+  ]
+}

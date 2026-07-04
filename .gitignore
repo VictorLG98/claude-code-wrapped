@@ -1,0 +1,5 @@
+node_modules/
+claude-wrapped.html
+*.png
+!docs/*.png
+.DS_Store
