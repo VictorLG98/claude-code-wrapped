@@ -6,8 +6,6 @@ Ever wondered how many tokens you've burned with Claude Code? Which tools it ham
 
 **Claude Code Wrapped** reads the transcripts Claude Code already stores on your machine (`~/.claude/projects`) and turns them into a gorgeous, animated, shareable report.
 
-![report preview](docs/preview.png)
-
 ## ✨ What you get
 
 - **Total tokens** — input, output, cache writes and cache reads, with an animated hero counter
@@ -24,7 +22,7 @@ Ever wondered how many tokens you've burned with Claude Code? Which tools it ham
 ## 🚀 Quick start
 
 ```bash
-npx claude-code-wrapped
+npx @my_org_vic/claudewrapped
 ```
 
 That's it. Your report opens in the browser and a summary prints in the terminal.
@@ -32,7 +30,7 @@ That's it. Your report opens in the browser and a summary prints in the terminal
 No Claude Code data yet? Try the demo:
 
 ```bash
-npx claude-code-wrapped --demo
+npx @my_org_vic/claudewrapped --demo
 ```
 
 ## 🔒 Privacy
