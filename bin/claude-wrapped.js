@@ -432,7 +432,7 @@ function buildHTML(s, d) {
 </div>
 
 <footer>
-  Generated locally by <a href="https://github.com/vic98lg/claude-code-wrapped">claude-code-wrapped</a>
+  Generated locally by <a href="https://github.com/VictorLG98/claude-code-wrapped">claude-code-wrapped</a>
   — nothing left your machine. Costs are estimates at API list prices.
 </footer>
 </div>
@@ -543,7 +543,7 @@ $('btn-share').addEventListener('click', ()=>{
   x.fillStyle='#c084fc'; x.fillText(bl, W/2, 1120);
 
   x.fillStyle='#8b93a5'; x.font='400 28px -apple-system,Segoe UI,sans-serif';
-  x.fillText('github.com/vic98lg/claude-code-wrapped', W/2, 1280);
+  x.fillText('github.com/VictorLG98/claude-code-wrapped', W/2, 1280);
 
   c.toBlob(b=>{
     const a=document.createElement('a');
