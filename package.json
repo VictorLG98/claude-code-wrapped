@@ -1,6 +1,6 @@
 {
-  "name": "claude-code-wrapped",
-  "version": "0.1.0",
+  "name": "@vic98lg/claude-code-wrapped",
+  "version": "0.1.12",
   "description": "🎁 Your Claude Code usage, Spotify-Wrapped style. 100% local, zero dependencies.",
   "bin": {
     "claude-wrapped": "bin/claude-wrapped.js"
